@@ -22,7 +22,7 @@ const ProductCards = () => {
 
   useEffect(() => {
     dispatch(initCart());
-  }, [])
+  }, [dispatch])
 
   useEffect(() => {
     if (!currentCategory || currentCategory === 'all') {

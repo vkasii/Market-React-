@@ -21,7 +21,7 @@ const CheckoutComponent = () => {
 
   useEffect(() => {
     localStorage.getItem('orderCompleted') === 'true' && navigate('/products')
-  }, [])
+  }, [navigate])
 
   const handleSubmit = (event) => {
     event.preventDefault();
