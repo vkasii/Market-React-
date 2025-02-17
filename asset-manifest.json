@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Market-React-/static/css/main.ace20196.css",
-    "main.js": "/Market-React-/static/js/main.2afcf81f.js",
+    "main.js": "/Market-React-/static/js/main.6a2a22ac.js",
     "static/js/488.13fda179.chunk.js": "/Market-React-/static/js/488.13fda179.chunk.js",
     "index.html": "/Market-React-/index.html",
     "main.ace20196.css.map": "/Market-React-/static/css/main.ace20196.css.map",
-    "main.2afcf81f.js.map": "/Market-React-/static/js/main.2afcf81f.js.map",
+    "main.6a2a22ac.js.map": "/Market-React-/static/js/main.6a2a22ac.js.map",
     "488.13fda179.chunk.js.map": "/Market-React-/static/js/488.13fda179.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ace20196.css",
-    "static/js/main.2afcf81f.js"
+    "static/js/main.6a2a22ac.js"
   ]
 }
