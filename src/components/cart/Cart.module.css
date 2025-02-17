@@ -1,0 +1,11 @@
+.cart {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: currentColor;
+  transition: 0.3s;
+}
+
+.cart:hover {
+  color: var(--action-color);
+}

@@ -1,0 +1,50 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/* Variables */
+:root {
+  --action-color: #4CAF50;
+  --action-hover-color: #3B913F;
+  --error-color: #D53B3B;
+  --error-hover-color: #BF3535;
+  --warning-color: #EC9901;
+  --color-white: #FFF;
+  --color-dark: #1F2325;
+  --color-dark-gray: #5D5E63;
+  --color-medium-gray: #878686;
+  --color-light-gray: #BFBFBF;
+  --color-lighter-gray: #F0F0F0;
+  --color-very-light-gray: #DBDBDB;
+  --box-shadow-color: 0 0 3px 0px #8E8888;
+  --box-shadow-hover-color: 0 0 7px 2px #8E8888;
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+}

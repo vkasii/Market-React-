@@ -1,0 +1,33 @@
+.spinnerContainer {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  border-left: 3px solid var(--action-color);
+  border-right: 3px solid var(--action-color);
+  border-top: 3px solid var(--color-medium-gray);
+  border-bottom: 3px solid var(--color-medium-gray);
+
+  animation: rotate-spinner 1.5s linear infinite;
+}
+
+@keyframes rotate-spinner {
+  0% {
+    border-radius: 4px;
+    rotate: 0;
+  }
+
+  50% {
+    border-radius: 50%;
+    rotate: 180deg;
+  }
+
+  100% {
+    border-radius: 4px;
+    rotate: 360deg;
+  }
+}

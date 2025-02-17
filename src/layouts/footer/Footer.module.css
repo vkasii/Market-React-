@@ -1,0 +1,39 @@
+footer {
+  padding: 40px 0 10px;
+  box-shadow: var(--box-shadow-color);
+}
+
+.footerContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px 30px;
+}
+
+.footerLogo {
+  max-width: 200px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.copyright {
+  text-align: center;
+  text-wrap: balance;
+}
+
+.iconHeight {
+  height: 1cap;
+}
+
+@media screen and (max-width: 700px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+  }
+}

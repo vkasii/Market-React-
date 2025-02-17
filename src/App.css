@@ -1,0 +1,97 @@
+/* Theme mode */
+body.light {
+  background: var(--color-lighter-gray);
+  color: var(--color-dark);
+}
+
+body.dark {
+  background: var(--color-dark);
+  color: var(--color-very-light-gray);
+}
+
+/* General styles */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body.light nav,
+body.light header,
+body.light footer {
+  background: var(--color-lighter-gray);
+}
+
+body.dark nav,
+body.dark header {
+  background: var(--color-dark);
+}
+
+main {
+  flex: 1;
+  padding-top: 84px;
+}
+
+.action-color {
+  color: var(--action-color);
+  transition: 0.3s;
+}
+
+.action-color:hover {
+  color: var(--action-hover-color);
+}
+
+.error-color {
+  color: var(--error-color);
+}
+
+/* Buttons */
+.default-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.neutral-btn {
+  background: transparent;
+  color: currentColor;
+  border: 1px solid currentColor;
+}
+
+.neutral-btn:hover {
+  border: 1px solid var(--action-color);
+  color: var(--action-color);
+}
+
+.brand-btn {
+  border: 1px solid var(--action-color);
+  background: var(--action-color);
+  color: var(--color-white);
+}
+
+.brand-btn:hover {
+  border: 1px solid var(--action-hover-color);
+  background: var(--action-hover-color);
+}
+
+/* Input */
+input {
+  min-height: 24px;
+  padding: 2px 6px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  box-shadow: var(--box-shadow-color);
+  font-family: 'Montserrat';
+  color: currentColor;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:hover,
+input:active,
+input:focus {
+  box-shadow: var(--box-shadow-hover-color);
+}

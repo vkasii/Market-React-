@@ -1,0 +1,36 @@
+.amountSelectorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.amountSelectorContainer button {
+  height: 24px;
+  background: transparent;
+  border: none;
+  color: currentColor;
+  cursor: pointer;
+}
+
+.amountSelectorContainer input {
+  max-width: 60px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Для Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+@media screen and (max-width: 768px) {
+  .amountSelectorContainer {
+    margin-right: auto;
+  }
+}

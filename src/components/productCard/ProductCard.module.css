@@ -1,0 +1,125 @@
+.cardItem {
+  position: relative;
+  width: calc(25% - 15px);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--box-shadow-color);
+  transition: 0.3s;
+}
+
+.cardItem:hover {
+  box-shadow: var(--box-shadow-hover-color);
+}
+
+.whiteCard {
+  background: var(--color-white);
+}
+
+.cardImage {
+  max-width: 300px;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: var(--box-shadow-color);
+}
+
+.cardContainer {
+  padding: 10px 10px 55px;
+}
+
+.productCardTitle a {
+  transition: 0.3s;
+}
+
+.productCardTitle a {
+  font-size: 18px;
+  color: var(--action-color);
+}
+
+.productCardTitle a:hover {
+  color: var(--action-hover-color);
+}
+
+.cardInfo {
+  flex: 1;
+  margin: 8px 0 4px;
+}
+
+.cardInfo span {
+  font-weight: 500;
+}
+
+.detail {
+  font-size: 0.75em;
+}
+
+.buttonsContainer {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.addBtn,
+.detailBtn {
+  font: 0.9em/1 'Montserrat', sans-serif;
+  padding: 4px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addBtn {
+  background: var(--action-color);
+}
+
+.added {
+  color: var(--action-color);
+}
+
+.added:hover {
+  color: var(--error-color);
+}
+
+.detailBtn {
+  border: 1px solid currentColor;
+}
+
+.detailBtn:hover {
+  color: var(--action-hover-color);
+}
+
+.addBtn:hover {
+  background: var(--action-hover-color);
+  border: 1px solid var(--action-hover-color);
+}
+
+@media screen and (max-width: 996px) {
+
+  .cardItem {
+    width: calc(33% - 40px/3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .cardItem {
+    width: calc(50% - 10px);
+  }
+
+  .cardImage {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+
+  .cardItem {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+}
