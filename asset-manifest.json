@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Market-React-/static/css/main.a2e23d6a.css",
-    "main.js": "/Market-React-/static/js/main.e102f9ca.js",
+    "main.css": "/Market-React-/static/css/main.6639a918.css",
+    "main.js": "/Market-React-/static/js/main.ec4c4d7a.js",
     "static/css/764.cfac6a13.chunk.css": "/Market-React-/static/css/764.cfac6a13.chunk.css",
     "static/js/764.d3701ce9.chunk.js": "/Market-React-/static/js/764.d3701ce9.chunk.js",
     "static/css/839.9abe8de3.chunk.css": "/Market-React-/static/css/839.9abe8de3.chunk.css",
@@ -15,8 +15,8 @@
     "static/js/820.c749de2e.chunk.js": "/Market-React-/static/js/820.c749de2e.chunk.js",
     "static/js/488.13fda179.chunk.js": "/Market-React-/static/js/488.13fda179.chunk.js",
     "index.html": "/Market-React-/index.html",
-    "main.a2e23d6a.css.map": "/Market-React-/static/css/main.a2e23d6a.css.map",
-    "main.e102f9ca.js.map": "/Market-React-/static/js/main.e102f9ca.js.map",
+    "main.6639a918.css.map": "/Market-React-/static/css/main.6639a918.css.map",
+    "main.ec4c4d7a.js.map": "/Market-React-/static/js/main.ec4c4d7a.js.map",
     "764.cfac6a13.chunk.css.map": "/Market-React-/static/css/764.cfac6a13.chunk.css.map",
     "764.d3701ce9.chunk.js.map": "/Market-React-/static/js/764.d3701ce9.chunk.js.map",
     "839.9abe8de3.chunk.css.map": "/Market-React-/static/css/839.9abe8de3.chunk.css.map",
@@ -31,7 +31,7 @@
     "488.13fda179.chunk.js.map": "/Market-React-/static/js/488.13fda179.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2e23d6a.css",
-    "static/js/main.e102f9ca.js"
+    "static/css/main.6639a918.css",
+    "static/js/main.ec4c4d7a.js"
   ]
 }
